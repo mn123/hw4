@@ -19,8 +19,8 @@ void minmax(const int N, double* p, double& min, double& max){
 int main(){
 
 	srand(time(NULL));
-	int N;
-	cout << "N="; cin >> N;
+	int N=100;
+	//cout << "N="; cin >> N;
 	double* p= new double[N];
 	double min=1,max=0;
 	
